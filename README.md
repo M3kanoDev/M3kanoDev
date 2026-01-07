@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Soltani Ghaith</h1>
 <h3 align="center">A passionate frontend developer from Tunisia</h3>
 
-- 🔭 I’m currently working on **ServerLoom Anti Cheat**
-
-- 👯 I’m looking to collaborate on **ServerLoom Shield**
+- 🔭 I’m currently working on **ServerLoom Panel**
 
 - 👨‍💻 All of my projects are available at [serverloom.com](serverloom.com)
 
@@ -22,7 +20,6 @@
 
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) 
 ![Shell Script](https://img.shields.io/badge/-Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
