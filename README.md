@@ -158,7 +158,7 @@ class Founder extends Developer
 ## 🔥 Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=m3kano-sl&theme=tokyonight&hide_border=true&background=0f172a&ring=06b6d4&fire=06b6d4&currStreakLabel=06b6d4" alt="streak" />
+  <img src="https://streak-stats.demolab.com?user=M3kanoDev&theme=tokyonight&hide_border=true&background=0f172a&ring=06b6d4&fire=06b6d4&currStreakLabel=06b6d4" alt="streak" />
 </p>
 
 ---
