@@ -1,25 +1,28 @@
 <!-- ===================== HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=Soltani%20Ghaith&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Founder%20of%20ServerLoom%20%E2%80%A2%20Full-Stack%20Developer&descAlignY=58&descSize=18&animation=fadeIn" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=220&section=header&text=Soltani%20Ghaith&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Founder%20of%20ServerLoom%20%26%20iLoomX%20%E2%80%A2%20Full-Stack%20Developer&descAlignY=58&descSize=18&animation=fadeIn" alt="header" />
 </p>
 
 <p align="center">
   <a href="https://serverloom.com">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=06B6D4&center=true&vCenter=true&width=650&lines=Full-Stack+Web+Developer+%E2%80%A2+5%2B+Years;Laravel+%E2%80%A2+PHP+%E2%80%A2+REST+APIs;Tailwind+CSS+%E2%80%A2+React+%E2%80%A2+Next.js;FiveM+Development+%E2%80%A2+Lua;Building+ServerLoom+Panel+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=06B6D4&center=true&vCenter=true&width=680&lines=Full-Stack+Web+Developer+%E2%80%A2+5%2B+Years;Founder+of+ServerLoom+%26+iLoomX;Laravel+%E2%80%A2+PHP+%E2%80%A2+REST+APIs;Tailwind+CSS+%E2%80%A2+React+%E2%80%A2+Next.js;FiveM+Scripts+%E2%80%A2+Lua;Building+a+complete+app+ecosystem+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://serverloom.com"><img src="https://img.shields.io/badge/Website-serverloom.com-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://serverloom.com"><img src="https://img.shields.io/badge/ServerLoom-serverloom.com-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://iloomx.com"><img src="https://img.shields.io/badge/iLoomX-iloomx.com-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="mailto:M3kano@serverloom.com"><img src="https://img.shields.io/badge/Email-M3kano@serverloom.com-1e3a8a?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+<p align="center">
   <a href="https://discord.gg/serverloom"><img src="https://img.shields.io/badge/Discord-ServerLoom-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
   <a href="https://twitter.com/serverloom"><img src="https://img.shields.io/badge/X-@serverloom-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=m3kano-sl&label=Profile%20Views&color=06b6d4&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/badge/Based%20in-Tunisia%20🇹🇳-0f172a?style=flat-square" />
+  <img src="https://img.shields.io/badge/Based%20in-Italy%20🇮🇹-0f172a?style=flat-square" />
   <img src="https://img.shields.io/badge/Experience-5%2B%20Years-1e3a8a?style=flat-square" />
+  <img src="https://img.shields.io/badge/Front%20%2B%20Back%20End-100%25%20Built%20by%20Me-06b6d4?style=flat-square" />
   <img src="https://img.shields.io/badge/Open%20to-Projects%20%26%20Collabs-22c55e?style=flat-square" />
 </p>
 
@@ -37,34 +40,56 @@ class Founder extends Developer
     public string $name     = 'Soltani Ghaith';
     public string $alias    = 'M3kano';
     public string $role     = 'Founder & Full-Stack Developer';
-    public string $company  = 'ServerLoom (serverloom.com)';
-    public string $location = 'Tunisia 🇹🇳';
+    public array  $brands   = ['serverloom.com', 'iloomx.com'];
+    public string $location = 'Italy 🇮🇹';
     public int    $years    = 5;
 
     public array $expertise = [
         'backend'  => ['PHP', 'Laravel', 'REST APIs', 'MySQL', 'MariaDB'],
         'frontend' => ['Tailwind CSS', 'React', 'Next.js', 'TypeScript'],
-        'gaming'   => ['FiveM', 'Lua', 'Server Scripts & Resources'],
+        'fivem'    => ['Custom Scripts', 'Lua', 'NUI Interfaces'],
         'devops'   => ['Linux', 'Nginx', 'Apache', 'AWS', 'Azure'],
     ];
 
-    public function currentFocus(): string
+    public function builds(): string
     {
-        return 'Building ServerLoom Panel 🚀';
+        return 'A full ecosystem of pro apps — designed, coded and shipped by me.';
     }
 
-    public function motto(): string
+    public function currentFocus(): string
     {
-        return 'Design it, build it, ship it — front to back.';
+        return 'ServerLoom Panel 🚀';
     }
 }
 ```
 
-- 🏢 Founder of **[ServerLoom](https://serverloom.com)** — designed and built **entirely by me**, frontend and backend
+- 🏢 Founder of **[ServerLoom](https://serverloom.com)** and **[iLoomX](https://iloomx.com)**
+- 🧩 I created a **complete ecosystem of professional apps** — every one designed and built by me, **frontend and backend**
 - 🔭 Currently working on **ServerLoom Panel**
-- ⚙️ **5+ years** building production web apps, APIs and FiveM systems
-- 💬 Ask me about **Laravel, API design, Tailwind, or FiveM development**
+- 🎮 I write **custom FiveM scripts**
+- ⚙️ **5+ years** building production web apps and APIs
 - 📫 Reach me at **[M3kano@serverloom.com](mailto:M3kano@serverloom.com)**
+
+---
+
+## 🌐 My Ecosystem
+
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <h3>⚡ ServerLoom</h3>
+      <a href="https://serverloom.com"><b>serverloom.com</b></a>
+      <br/><br/>
+      The home of my ecosystem and the <b>ServerLoom Panel</b> — architecture, API, database and interface all built by me.
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h3>💜 iLoomX</h3>
+      <a href="https://iloomx.com"><b>iloomx.com</b></a>
+      <br/><br/>
+      Another platform in my ecosystem, created end-to-end by me — from backend logic to the final UI.
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -83,8 +108,8 @@ class Founder extends Developer
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎮 FiveM Development</h3>
-      Custom server resources, scripts and in-game NUI interfaces built for performance and a smooth player experience.
+      <h3>🎮 FiveM Scripts</h3>
+      Custom scripts for FiveM servers, written in Lua with polished in-game NUI interfaces, optimized for performance.
     </td>
     <td width="50%" valign="top">
       <h3>🖥️ Panels & Dashboards</h3>
@@ -114,11 +139,11 @@ class Founder extends Developer
   <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" />
 </p>
 
-<p align="center"><b>Game Development</b></p>
+<p align="center"><b>FiveM Scripting</b></p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=lua&theme=dark" />
   <br/>
-  <img src="https://img.shields.io/badge/FiveM-F40552?style=for-the-badge&logo=fivem&logoColor=white" />
+  <img src="https://img.shields.io/badge/FiveM_Scripts-F40552?style=for-the-badge&logo=fivem&logoColor=white" />
 </p>
 
 <p align="center"><b>DevOps & Infrastructure</b></p>
@@ -130,38 +155,10 @@ class Founder extends Developer
 
 ---
 
-## 🌟 Featured Project
-
-<p align="center">
-  <a href="https://serverloom.com">
-    <img src="https://img.shields.io/badge/ServerLoom_Panel-In_Development-06B6D4?style=for-the-badge&logo=serverfault&logoColor=white" />
-  </a>
-</p>
-
-> **ServerLoom Panel** — a modern server management panel built from the ground up with **Laravel** and **Tailwind CSS**.
-> Every part of it — architecture, API, database and interface — is designed and developed by me.
->
-> 👉 Explore everything at **[serverloom.com](https://serverloom.com)**
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=m3kano-sl&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=06b6d4&icon_color=06b6d4&count_private=true&include_all_commits=true" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=m3kano-sl&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=06b6d4&langs_count=8" alt="top langs" />
-</p>
+## 🔥 Contribution Streak
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=m3kano-sl&theme=tokyonight&hide_border=true&background=0f172a&ring=06b6d4&fire=06b6d4&currStreakLabel=06b6d4" alt="streak" />
-</p>
-
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=m3kano-sl&bg_color=0f172a&color=06b6d4&line=1e3a8a&point=ffffff&area=true&hide_border=true" alt="activity graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=m3kano-sl&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="trophies" />
 </p>
 
 ---
@@ -169,12 +166,13 @@ class Founder extends Developer
 ## 🤝 Let's Work Together
 
 <p align="center">
-  Need a web app, an API, a custom panel or FiveM resources?<br/>
+  Need a web app, an API, a custom panel or FiveM scripts?<br/>
   <b>Let's build something great.</b>
 </p>
 
 <p align="center">
   <a href="https://serverloom.com"><img src="https://img.shields.io/badge/Visit-serverloom.com-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://iloomx.com"><img src="https://img.shields.io/badge/Visit-iloomx.com-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="mailto:M3kano@serverloom.com"><img src="https://img.shields.io/badge/Hire_Me-Email-1e3a8a?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://discord.gg/serverloom"><img src="https://img.shields.io/badge/Join-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
 </p>
